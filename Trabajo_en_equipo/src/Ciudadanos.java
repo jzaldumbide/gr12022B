@@ -7,7 +7,7 @@ public class Ciudadanos {
     String Nombre_github;
 
     //CONSTRUCTOR
-    public void Ciudadanos (){
+    public Ciudadanos(){
         Nombre = "Pepe";
         edad = 12;
         Cedula = "1111111";
