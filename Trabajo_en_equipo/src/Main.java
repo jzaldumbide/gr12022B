@@ -40,7 +40,7 @@ public class Main {
                     ciudadano3.setEstado_civil("Soltero");
                     ciudadano3.setNombre_github("Shiao-Li");
 
-                    System.out.println("\tCiudadano 1");
+                    System.out.println("\tCiudadano 3");
                     System.out.println("Nombre: " +ciudadano3.getNombre() );
                     System.out.println("Edad: " +ciudadano3.getEdad() );
                     System.out.println("C.I.: " + ciudadano3.getCedula() );
