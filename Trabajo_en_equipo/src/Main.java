@@ -7,6 +7,9 @@ public class Main {
         boolean salir = false;
         int opcion;
 
+        //ciudadano 3
+        Ciudadanos ciudadano3 = new Ciudadanos();
+
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -30,6 +33,14 @@ public class Main {
                 case 2:
                     break;
                 case 3:
+
+                    ciudadano3.setNombre("Roberto Shiao");
+                    ciudadano3.setEdad(20);
+                    ciudadano3.setCedula("175136124-5");
+                    ciudadano3.setEstado_civil("Soltero");
+                    ciudadano3.setNombre_github("Shiao-Li");
+
+
                     break;
                 case 4:
                     break;
