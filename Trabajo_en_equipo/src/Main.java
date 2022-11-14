@@ -7,7 +7,7 @@ public class Main {
         boolean salir = false;
         int opcion;
 
-        //Objeto 1
+        //objeto 1
         Ciudadanos ciudadano_1 = new Ciudadanos();
 
         //bucle para comenzar el menu
@@ -32,7 +32,7 @@ public class Main {
 
                     ciudadano_1.setNombre("José Pinos");
                     ciudadano_1.setEdad(21);
-                    ciudadano_1.setCedula("1726908138");
+                    ciudadano_1.setCedula("172690813-8");
                     ciudadano_1.setEstado_civil("Soltero");
                     ciudadano_1.setNombre_github("JosePinos 1) J-Pinos3 2)");
 
