@@ -15,6 +15,20 @@ public class Ciudadanos {
         Nombre_github  = "Nosexd";
     }
 
+    public void metodoMoreira () {
+        Ciudadanos em = new Ciudadanos();
+        em.setNombre("Elian Moreira");
+        System.out.println("Nombre: "+em.getNombre());
+        em.setEdad(19);
+        System.out.println("Edad: "+em.getEdad());
+        em.setCedula("1750875682");
+        System.out.println("Cedula: "+em.getCedula());
+        em.setEstado_civil("Soltero");
+        System.out.println("Estado civil: "+em.getEstado_civil());
+        em.setNombre_github("Elian027");
+        System.out.println("Usuario Github: "+em.getNombre_github());
+    }
+
 
     //GETTER AND SETTER
 

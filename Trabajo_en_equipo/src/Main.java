@@ -36,6 +36,8 @@ public class Main {
                 case 5:
                     break;
                 case 6:
+                    Ciudadanos em = new Ciudadanos();
+                    em.metodoMoreira();
                     break;
                 case 7:
                     break;
