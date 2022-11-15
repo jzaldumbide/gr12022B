@@ -32,6 +32,15 @@ public class Ciudadanos {
         System.out.println("Estado Civil: " + nestor.getEstado_civil() );
         System.out.println("Github: " + nestor.getNombre_github() );
     }
+    public void  metodoShiao(Ciudadanos ciudadano3){
+        System.out.println("\tCiudadano  3");
+        System.out.println("\n\tEjercicio GitHub");
+        System.out.println("Nombre: " + ciudadano3.getNombre() );
+        System.out.println("Edad: " + ciudadano3.getEdad() );
+        System.out.println("C.I.: " + ciudadano3.getCedula() );
+        System.out.println("Estado Civil: " + ciudadano3.getEstado_civil() );
+        System.out.println("Github: " + ciudadano3.getNombre_github() );
+    }
 
     //GETTER AND SETTER
 
