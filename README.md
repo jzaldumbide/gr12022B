@@ -4,7 +4,7 @@
 <p>Escuela Politecnica Nacional</p>
 1. David Basantes
 2. Danny vinueza
-3. Elian Moreria
+3. Elian Moreira
 4. Jose Pinos
 5. Rober Shiao
 6. Franklin Patinio
