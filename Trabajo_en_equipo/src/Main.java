@@ -6,9 +6,6 @@ public class Main {
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion;
-        //Ciudadano 2
-        Ciudadanos Ciudadano2 = new Ciudadanos();
-        Ciudadanos ciudadano_7 = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -30,20 +27,6 @@ public class Main {
                 case 1:
                     break;
                 case 2:
-                    // Asignación de datos
-                    Ciudadano2.setNombre("Dilan Flores");
-                    Ciudadano2.setEdad(29);
-                    Ciudadano2.setCedula("1727936070");
-                    Ciudadano2.setEstado_civil("Soltero");
-                    Ciudadano2.setNombre_github("dilan-flores");
-
-                    //Presentación de ciudadano 2
-                    System.out.println("Ciudadano 2");
-                    System.out.println("Nombre: " + Ciudadano2.getNombre());
-                    System.out.println("Edad: " + Ciudadano2.getEdad());
-                    System.out.println("C.I: " + Ciudadano2.getCedula());
-                    System.out.println("Estado civil: " + Ciudadano2.Estado_civil);
-                    System.out.println("GitHub: " + Ciudadano2.Nombre_github);
                     break;
                 case 3:
                     break;
@@ -55,29 +38,9 @@ public class Main {
                     ciudadano4.setEstado_civil("Soltero");
                     ciudadano4.setNombre_github("FranklinJPC");
 
-                    System.out.println("\t-----Ciudadano 4------\n");
-                    System.out.println("Nombre: " + ciudadano4.getNombre());
-                    System.out.println("Edad: " + ciudadano4.getEdad());
-                    System.out.println("C.I.: " + ciudadano4.getCedula());
-                    System.out.println("Estado civil: " + ciudadano4.getEstado_civil());
-                    System.out.println("Github: " + ciudadano4.getNombre_github());
-                    System.out.println();
+                    ciudadano4.Franklin_Patino();
                     break;
                 case 5:
-                    ciudadano_5.setNombre("Edison Morales");
-                    ciudadano_5.setEdad(18);
-                    ciudadano_5.setCedula("1727267674");
-                    ciudadano_5.setEstado_civil("Soltero");
-                    ciudadano_5.setNombre_github("ZEROo666");
-                    mostrarCiudadanos(ciudadano_5);
-
-                    System.out.println("Ciudadano 5");
-                    System.out.println("Nombre: " + ciudadano_5.getNombre());
-                    System.out.println("Edad: " + ciudadano_5.getEdad());
-                    System.out.println("C.I: " + ciudadano_5.getCedula());
-                    System.out.println("Estado civil: " + Ciudadano_5.Estado_civil);
-                    System.out.println("GitHub: " + Ciudadano_5.Nombre_github);
-                    System.out.println("Ejercicio Github");
                     break;
                 case 6:
                     break;

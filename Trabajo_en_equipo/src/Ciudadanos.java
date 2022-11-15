@@ -7,7 +7,7 @@ public class Ciudadanos {
     String Nombre_github;
 
     //CONSTRUCTOR
-    public Ciudadanos(){
+
     public void Ciudadanos (){
         Nombre = "Pepe";
         edad = 12;
@@ -57,5 +57,17 @@ public class Ciudadanos {
 
     public void setNombre_github(String nombre_github) {
         Nombre_github = nombre_github;
+    }
+
+    public void Franklin_Patino()
+    {
+        System.out.println("\t-----Ciudadano 4------\n");
+        System.out.println("Nombre: " + getNombre());
+        System.out.println("Edad: " + getEdad());
+        System.out.println("C.I.: " + getCedula());
+        System.out.println("Estado civil: " + getEstado_civil());
+        System.out.println("Github: " + getNombre_github());
+        System.out.println("Ejercicio GitHub");
+        System.out.println();
     }
 }
