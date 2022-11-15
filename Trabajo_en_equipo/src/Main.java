@@ -7,6 +7,9 @@ public class Main {
         boolean salir = false;
         int opcion;
 
+        //Ciudadano 2
+        Ciudadanos Ciudadano2 = new Ciudadanos();
+
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -28,6 +31,20 @@ public class Main {
                 case 1:
                     break;
                 case 2:
+                    // Asignación de datos
+                    Ciudadano2.setNombre("Dilan Flores");
+                    Ciudadano2.setEdad(29);
+                    Ciudadano2.setCedula("1727936070");
+                    Ciudadano2.setEstado_civil("Soltero");
+                    Ciudadano2.setNombre_github("dilan-flores");
+
+                    //Presentación de ciudadano 2
+                    System.out.println("Ciudadano 2");
+                    System.out.println("Nombre: " + Ciudadano2.getNombre());
+                    System.out.println("Edad: " + Ciudadano2.getEdad());
+                    System.out.println("C.I: " + Ciudadano2.getCedula());
+                    System.out.println("Estado civil: " + Ciudadano2.Estado_civil);
+                    System.out.println("GitHub: " + Ciudadano2.Nombre_github);
                     break;
                 case 3:
                     break;
