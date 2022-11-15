@@ -57,4 +57,12 @@ public class Ciudadanos {
     public void setNombre_github(String nombre_github) {
         Nombre_github = nombre_github;
     }
+    
+    public void metodoChumania( Ciudadanos nestor){
+        System.out.println("Nombre: " +nestor.getNombre() );
+        System.out.println("Edad: " +nestor.getEdad() );
+        System.out.println("C.I.: " + nestor.getCedula() );
+        System.out.println("Estado Civil: " + nestor.getEstado_civil() );
+        System.out.println("Github: " + nestor.getNombre_github() );
+    }
 }
