@@ -53,7 +53,7 @@ public class Main {
                     ciudadano_5.setCedula("1727267674");
                     ciudadano_5.setEstado_civil("Soltero");
                     ciudadano_5.setNombre_github("ZEROo666");
-
+                    mostrarCiudadanos(ciudadano_5);
                     break;
                 case 6:
                     break;
@@ -83,13 +83,7 @@ public class Main {
                 
 
                     //Presentacion de datos
-                    System.out.println("Ciudadano 12");
-                    System.out.println("Nombre: " + Ciudadano12.getNombre());
-                    System.out.println("Edad: " + Ciudadano12.getEdad());
-                    System.out.println("C.I.: " + Ciudadano12.getCedula());
-                    System.out.println("Estado Civil: " + Ciudadano12.getEstado_civil());
-                    System.out.println("Github: " + Ciudadano12.getNombre_github());
-                    System.out.println("Ejercicio en github");
+                    mostrarCiudadanos(Ciudadano12);
                 break;
                     
                 case 13:
