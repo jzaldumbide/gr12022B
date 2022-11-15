@@ -9,11 +9,16 @@ public class Main {
 
         //Ciudadano 2
         Ciudadanos Ciudadano2 = new Ciudadanos();
+        Ciudadanos ciudadano_5 = new Ciudadanos();
         Ciudadanos ciudadano_7 = new Ciudadanos();
+
 
         //objeto 1
         Ciudadanos ciudadano_1 = new Ciudadanos();
 
+
+
+        Ciudadanos Ciudadano12 = new Ciudadanos();
 
         //bucle para comenzar el menu
         while(!salir){
@@ -30,7 +35,7 @@ public class Main {
             System.out.println("11.- Persona 11");
             System.out.println("12.- Persona 12");
             System.out.println("13.-Salir");
-            System.out.println("Introduce el numero que de deseas saber de la persona");
+            System.out.print("Introduce el numero que de deseas saber de la persona: ");
             opcion = sn.nextInt();
             switch (opcion){
                 case 1:
@@ -58,36 +63,31 @@ public class Main {
                     Ciudadano2.setNombre_github("dilan-flores");
 
                     //Presentación de ciudadano 2
-                    System.out.println("Ciudadano 2");
-                    System.out.println("Nombre: " + Ciudadano2.getNombre());
-                    System.out.println("Edad: " + Ciudadano2.getEdad());
-                    System.out.println("C.I: " + Ciudadano2.getCedula());
-                    System.out.println("Estado civil: " + Ciudadano2.Estado_civil);
-                    System.out.println("GitHub: " + Ciudadano2.Nombre_github);
+                    mostrarCiudadanos(Ciudadano2);
                     break;
                 case 3:
                     break;
                 case 4:
                     break;
                 case 5:
+                    //Cambio de los datos originales
                     ciudadano_5.setNombre("Edison Morales");
                     ciudadano_5.setEdad(18);
                     ciudadano_5.setCedula("1727267674");
                     ciudadano_5.setEstado_civil("Soltero");
                     ciudadano_5.setNombre_github("ZEROo666");
                     mostrarCiudadanos(ciudadano_5);
-
-                    System.out.println("Ciudadano 5");
-                    System.out.println("Nombre: " + ciudadano_5.getNombre());
-                    System.out.println("Edad: " + ciudadano_5.getEdad());
-                    System.out.println("C.I: " + ciudadano_5.getCedula());
-                    System.out.println("Estado civil: " + Ciudadano_5.Estado_civil);
-                    System.out.println("GitHub: " + Ciudadano_5.Nombre_github);
-                    System.out.println("Ejercicio Github");
                     break;
                 case 6:
                     break;
                 case 7:
+                    ciudadano_7.setNombre("Danny Vinueza");
+                    ciudadano_7.setEdad(20);
+                    ciudadano_7.setCedula("1752681474");
+                    ciudadano_7.setEstado_civil("Soltero");
+                    ciudadano_7.setNombre_github("DannyVinueza");
+                    ciudadano_7.metodoVinueza(ciudadano_7);
+                    //mostrarCiudadanos(ciudadano_7);
                     break;
                 case 8:
                     break;
@@ -98,7 +98,18 @@ public class Main {
                 case 11:
                     break;
                 case 12:
-                    break;
+                    //Cambio de los datos originales
+                    Ciudadano12.setNombre("David");
+                    Ciudadano12.setEdad(20);
+                    Ciudadano12.setEstado_civil("soltero");
+                    Ciudadano12.setNombre_github("DAVIDS2405");
+                    Ciudadano12.setCedula("1750974550");
+                
+
+                    //Presentacion de datos
+                    mostrarCiudadanos(Ciudadano12);
+                break;
+                    
                 case 13:
                     salir = true;
                     break;
@@ -109,5 +120,13 @@ public class Main {
         }
 
 
+    }
+    public static void mostrarCiudadanos(Ciudadanos nomCiu){
+        System.out.println("\tejercicio GitHub");
+        System.out.println("Nombre: " +nomCiu.getNombre() );
+        System.out.println("Edad: " +nomCiu.getEdad() );
+        System.out.println("C.I.: " + nomCiu.getCedula() );
+        System.out.println("Estado Civil: " + nomCiu.getEstado_civil() );
+        System.out.println("Github: " + nomCiu.getNombre_github() );
     }
 }
