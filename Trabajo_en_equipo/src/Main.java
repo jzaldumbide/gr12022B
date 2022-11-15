@@ -63,6 +63,7 @@ public class Main {
                     System.out.println("C.I: " + ciudadano_5.getCedula());
                     System.out.println("Estado civil: " + Ciudadano_5.Estado_civil);
                     System.out.println("GitHub: " + Ciudadano_5.Nombre_github);
+                    System.out.println("Ejercicio Github");
                     break;
                 case 6:
                     break;
