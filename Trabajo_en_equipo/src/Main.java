@@ -43,12 +43,14 @@ public class Main {
                 case 8:
                     Ciudadanos Ciudadano8 = new Ciudadanos();
 
+                    //Seteamos los datos del Ciudadano
                     Ciudadano8.setNombre("Néstor Chumania");
                     Ciudadano8.setEdad(20);
                     Ciudadano8.setEstado_civil("Soltero");
                     Ciudadano8.setNombre_github("RotsenCH");
                     Ciudadano8.setCedula("1751354422");
 
+                    //Mostramos en pantalla utilizando getters
                     System.out.println("\n\tCiudadano #8");
                     System.out.println("Nombre: " + Ciudadano8.getNombre());
                     System.out.println("Edad: " + Ciudadano8.getEdad());
