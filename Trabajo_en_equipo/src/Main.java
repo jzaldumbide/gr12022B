@@ -56,6 +56,13 @@ public class Main {
                     ciudadano_5.setEstado_civil("Soltero");
                     ciudadano_5.setNombre_github("ZEROo666");
                     mostrarCiudadanos(ciudadano_5);
+
+                    System.out.println("Ciudadano 5");
+                    System.out.println("Nombre: " + ciudadano_5.getNombre());
+                    System.out.println("Edad: " + ciudadano_5.getEdad());
+                    System.out.println("C.I: " + ciudadano_5.getCedula());
+                    System.out.println("Estado civil: " + Ciudadano_5.Estado_civil);
+                    System.out.println("GitHub: " + Ciudadano_5.Nombre_github);
                     break;
                 case 6:
                     break;
