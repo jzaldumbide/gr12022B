@@ -24,6 +24,15 @@ public class Ciudadanos {
         System.out.println("Github: " + nomCiu.getNombre_github() );
     }
 
+    public void metodoChumania( Ciudadanos nestor){
+        System.out.println("\t\nEjercicio GitHub");
+        System.out.println("Nombre: " +nestor.getNombre() );
+        System.out.println("Edad: " +nestor.getEdad() );
+        System.out.println("C.I.: " + nestor.getCedula() );
+        System.out.println("Estado Civil: " + nestor.getEstado_civil() );
+        System.out.println("Github: " + nestor.getNombre_github() );
+    }
+
     //GETTER AND SETTER
 
     public String getNombre() {
