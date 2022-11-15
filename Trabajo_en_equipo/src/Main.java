@@ -10,7 +10,6 @@ public class Main {
         Ciudadanos Ciudadano2 = new Ciudadanos();
         Ciudadanos ciudadano_5 = new Ciudadanos();
         Ciudadanos ciudadano_7 = new Ciudadanos();
-        Ciudadanos ciudadano_5 = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
