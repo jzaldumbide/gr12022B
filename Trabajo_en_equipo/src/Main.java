@@ -46,6 +46,19 @@ public class Main {
                 case 10:
                     break;
                 case 11:
+                    Ciudadanos ciudadano11 = new Ciudadanos();
+                    ciudadano11.setNombre("Marlon Lalangui");
+                    ciudadano11.setEdad(19);
+                    ciudadano11.setCedula("172602504-0");
+                    ciudadano11.setEstado_civil("Soltero");
+                    ciudadano11.setNombre_github("marlon1925");
+
+                    System.out.println("\tCiudadano 3");
+                    System.out.println("Nombre: " +ciudadano11.getNombre() );
+                    System.out.println("Edad: " +ciudadano11.getEdad() );
+                    System.out.println("C.I.: " + ciudadano11.getCedula() );
+                    System.out.println("Estado Civil: " + ciudadano11.getEstado_civil() );
+                    System.out.println("Github: " + ciudadano11.getNombre_github() );
                     break;
                 case 12:
                     break;
