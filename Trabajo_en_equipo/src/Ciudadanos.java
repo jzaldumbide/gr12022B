@@ -8,6 +8,7 @@ public class Ciudadanos {
 
     //CONSTRUCTOR
     public Ciudadanos(){
+    public void Ciudadanos (){
         Nombre = "Pepe";
         edad = 12;
         Cedula = "1111111";
