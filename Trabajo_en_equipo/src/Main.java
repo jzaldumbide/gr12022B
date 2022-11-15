@@ -11,6 +11,7 @@ public class Main {
         Ciudadanos ciudadano_7 = new Ciudadanos();
         Ciudadanos Ciudadano12 = new Ciudadanos();
         Ciudadanos ciudadano_5 = new Ciudadanos();
+        Ciudadanos Basantes = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -87,16 +88,8 @@ public class Main {
                     Ciudadano12.setEstado_civil("soltero");
                     Ciudadano12.setNombre_github("DAVIDS2405");
                     Ciudadano12.setCedula("1750974550");
-                
-
                     //Presentacion de datos
-                    System.out.println("Ciudadano 12");
-                    System.out.println("Nombre: " + Ciudadano12.getNombre());
-                    System.out.println("Edad: " + Ciudadano12.getEdad());
-                    System.out.println("C.I.: " + Ciudadano12.getCedula());
-                    System.out.println("Estado Civil: " + Ciudadano12.getEstado_civil());
-                    System.out.println("Github: " + Ciudadano12.getNombre_github());
-                    System.out.println("Ejercicio en github");
+                    Basantes.Basantes12();
                 break;
                     
                 case 13:
