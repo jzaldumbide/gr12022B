@@ -25,7 +25,7 @@ public class Main {
             System.out.println("11.- Persona 11");
             System.out.println("12.- Persona 12");
             System.out.println("13.-Salir");
-            System.out.println("Introduce el numero que de deseas saber de la persona");
+            System.out.print("Introduce el numero que de deseas saber de la persona: ");
             opcion = sn.nextInt();
             switch (opcion){
                 case 1:
@@ -74,7 +74,8 @@ public class Main {
                     ciudadano_7.setCedula("1752681474");
                     ciudadano_7.setEstado_civil("Soltero");
                     ciudadano_7.setNombre_github("DannyVinueza");
-                    mostrarCiudadanos(ciudadano_7);
+                    ciudadano_7.metodoVinueza(ciudadano_7);
+                    //mostrarCiudadanos(ciudadano_7);
                     break;
                 case 8:
                     break;
