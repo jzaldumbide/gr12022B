@@ -15,6 +15,23 @@ public class Ciudadanos {
         Nombre_github  = "Nosexd";
     }
 
+    /*METODO*/
+    public void Flores(Ciudadanos Ciudadano2){
+        //Asignación de datos
+        Ciudadano2.setNombre("Dilan Flores");
+        Ciudadano2.setEdad(20);
+        Ciudadano2.setCedula("1727936070");
+        Ciudadano2.setEstado_civil("Soltero");
+        Ciudadano2.setNombre_github("dilan-flores");
+
+        //Presentación de ciudadano 2
+        System.out.println("        Ciudadano 2");
+        System.out.println("Nombre: " + Ciudadano2.getNombre());
+        System.out.println("Edad: " + Ciudadano2.getEdad());
+        System.out.println("C.I: " + Ciudadano2.getCedula());
+        System.out.println("Estado civil: " + Ciudadano2.getEstado_civil());
+        System.out.println("GitHub: " + Ciudadano2.getNombre_github());
+    }
 
     //GETTER AND SETTER
 
