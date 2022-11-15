@@ -6,7 +6,7 @@ public class Main {
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion;
-        Ciudadanos ciudadano_7 = new Ciudadanos();
+
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -22,7 +22,7 @@ public class Main {
             System.out.println("11.- Persona 11");
             System.out.println("12.- Persona 12");
             System.out.println("13.-Salir");
-            System.out.print("Introduce el numero que de deseas saber de la persona: ");
+            System.out.println("Introduce el numero que de deseas saber de la persona");
             opcion = sn.nextInt();
             switch (opcion){
                 case 1:
@@ -38,13 +38,6 @@ public class Main {
                 case 6:
                     break;
                 case 7:
-                    ciudadano_7.setNombre("Danny Vinueza");
-                    ciudadano_7.setEdad(20);
-                    ciudadano_7.setCedula("1752681474");
-                    ciudadano_7.setEstado_civil("Soltero");
-                    ciudadano_7.setNombre_github("DannyVinueza");
-                    mostrarCiudadanos(ciudadano_7);
-
                     break;
                 case 8:
                     break;
@@ -66,14 +59,5 @@ public class Main {
         }
 
 
-    }
-
-    public static void mostrarCiudadanos(Ciudadanos nomCiu){
-        System.out.println("\tejercicio GitHub");
-        System.out.println("Nombre: " +nomCiu.getNombre() );
-        System.out.println("Edad: " +nomCiu.getEdad() );
-        System.out.println("C.I.: " + nomCiu.getCedula() );
-        System.out.println("Estado Civil: " + nomCiu.getEstado_civil() );
-        System.out.println("Github: " + nomCiu.getNombre_github() );
     }
 }
