@@ -20,6 +20,9 @@ public class Main {
 
         Ciudadanos Ciudadano12 = new Ciudadanos();
 
+        //ciudadano 3
+        Ciudadanos ciudadano3 = new Ciudadanos();
+
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("\n1.- Persona 1");
@@ -66,6 +69,20 @@ public class Main {
                     mostrarCiudadanos(Ciudadano2);
                     break;
                 case 3:
+
+                    ciudadano3.setNombre("Roberto Shiao");
+                    ciudadano3.setEdad(20);
+                    ciudadano3.setCedula("175136124-5");
+                    ciudadano3.setEstado_civil("Soltero");
+                    ciudadano3.setNombre_github("Shiao-Li");
+
+                    System.out.println("\tCiudadano  3");
+                    System.out.println("\n\tEjercicio GitHub");
+                    System.out.println("Nombre: " +ciudadano3.getNombre() );
+                    System.out.println("Edad: " +ciudadano3.getEdad() );
+                    System.out.println("C.I.: " + ciudadano3.getCedula() );
+                    System.out.println("Estado Civil: " + ciudadano3.getEstado_civil() );
+                    System.out.println("Github: " + ciudadano3.getNombre_github() );
                     break;
                 case 4:
                     break;
@@ -123,12 +140,12 @@ public class Main {
                     Ciudadano12.setEstado_civil("soltero");
                     Ciudadano12.setNombre_github("DAVIDS2405");
                     Ciudadano12.setCedula("1750974550");
-                
+
 
                     //Presentacion de datos
                     mostrarCiudadanos(Ciudadano12);
                 break;
-                    
+
                 case 13:
                     salir = true;
                     break;
