@@ -8,6 +8,7 @@ public class Main {
         int opcion;
         //Ciudadano 2
         Ciudadanos Ciudadano2 = new Ciudadanos();
+        Ciudadanos ciudadano_5 = new Ciudadanos();
         Ciudadanos ciudadano_7 = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
@@ -61,13 +62,19 @@ public class Main {
                     System.out.println("Nombre: " + ciudadano_5.getNombre());
                     System.out.println("Edad: " + ciudadano_5.getEdad());
                     System.out.println("C.I: " + ciudadano_5.getCedula());
-                    System.out.println("Estado civil: " + Ciudadano_5.Estado_civil);
-                    System.out.println("GitHub: " + Ciudadano_5.Nombre_github);
+                    System.out.println("Estado civil: " + ciudadano_5.Estado_civil);
+                    System.out.println("GitHub: " + ciudadano_5.Nombre_github);
                     System.out.println("Ejercicio Github");
                     break;
                 case 6:
                     break;
                 case 7:
+                    ciudadano_7.setNombre("Danny Vinueza");
+                    ciudadano_7.setEdad(20);
+                    ciudadano_7.setCedula("1752681474");
+                    ciudadano_7.setEstado_civil("Soltero");
+                    ciudadano_7.setNombre_github("DannyVinueza");
+                    mostrarCiudadanos(ciudadano_7);
                     break;
                 case 8:
                     break;
@@ -89,5 +96,13 @@ public class Main {
         }
 
 
+    }
+    public static void mostrarCiudadanos(Ciudadanos nomCiu){
+        System.out.println("\tejercicio GitHub");
+        System.out.println("Nombre: " +nomCiu.getNombre() );
+        System.out.println("Edad: " +nomCiu.getEdad() );
+        System.out.println("C.I.: " + nomCiu.getCedula() );
+        System.out.println("Estado Civil: " + nomCiu.getEstado_civil() );
+        System.out.println("Github: " + nomCiu.getNombre_github() );
     }
 }
