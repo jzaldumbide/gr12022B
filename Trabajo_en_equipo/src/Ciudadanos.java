@@ -15,6 +15,20 @@ public class Ciudadanos {
         Nombre_github  = "Nosexd";
     }
 
+    public void metodoEdison_Morales () {
+        Ciudadanos Edison_Morales = new Ciudadanos();
+        Edison_Morales.setNombre("Elian Moreira");
+        Edison_Morales.setEdad(19);
+        Edison_Morales.setCedula("1750875682");
+        Edison_Morales.setEstado_civil("Soltero");
+        Edison_Morales.setNombre_github("Elian027");
+        System.out.println("Nombre: "+em.getNombre());
+        System.out.println("Edad: "+em.getEdad());
+        System.out.println("Cedula: "+em.getCedula());
+        System.out.println("Estado civil: "+em.getEstado_civil());
+        System.out.println("Usuario Github: "+em.getNombre_github());
+    }
+
 
     //GETTER AND SETTER
 

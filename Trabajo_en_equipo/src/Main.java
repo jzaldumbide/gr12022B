@@ -34,12 +34,8 @@ public class Main {
                 case 4:
                     break;
                 case 5:
-                    ciudadano_5.setNombre("Edison Morales");
-                    ciudadano_5.setEdad(18);
-                    ciudadano_5.setCedula("1727267674");
-                    ciudadano_5.setEstado_civil("Soltero");
-                    ciudadano_5.setNombre_github("ZEROo666");
-                    mostrarCiudadanos(ciudadano_5);
+                    Ciudadanos Edison_Morales = new Ciudadanos();
+                    Edison_Morales.metodoEdison_Morales();
                     break;
                 case 6:
                     break;
