@@ -10,6 +10,7 @@ public class Main {
         Ciudadanos Ciudadano2 = new Ciudadanos();
         Ciudadanos ciudadano_5 = new Ciudadanos();
         Ciudadanos ciudadano_7 = new Ciudadanos();
+        Ciudadanos Ciudadano12 = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -46,13 +47,13 @@ public class Main {
                 case 4:
                     break;
                 case 5:
+                    //Cambio de los datos originales
                     ciudadano_5.setNombre("Edison Morales");
                     ciudadano_5.setEdad(18);
                     ciudadano_5.setCedula("1727267674");
                     ciudadano_5.setEstado_civil("Soltero");
                     ciudadano_5.setNombre_github("ZEROo666");
 
-                    mostrarCiudadanos(ciudadano_5);
                     break;
                 case 6:
                     break;
@@ -73,7 +74,24 @@ public class Main {
                 case 11:
                     break;
                 case 12:
-                    break;
+                    //Cambio de los datos originales
+                    Ciudadano12.setNombre("David");
+                    Ciudadano12.setEdad(20);
+                    Ciudadano12.setEstado_civil("soltero");
+                    Ciudadano12.setNombre_github("DAVIDS2405");
+                    Ciudadano12.setCedula("1750974550");
+                
+
+                    //Presentacion de datos
+                    System.out.println("Ciudadano 12");
+                    System.out.println("Nombre: " + Ciudadano12.getNombre());
+                    System.out.println("Edad: " + Ciudadano12.getEdad());
+                    System.out.println("C.I.: " + Ciudadano12.getCedula());
+                    System.out.println("Estado Civil: " + Ciudadano12.getEstado_civil());
+                    System.out.println("Github: " + Ciudadano12.getNombre_github());
+                    System.out.println("Ejercicio en github");
+                break;
+                    
                 case 13:
                     salir = true;
                     break;
