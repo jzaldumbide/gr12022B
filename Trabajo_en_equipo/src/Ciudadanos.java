@@ -33,6 +33,7 @@ public class Ciudadanos {
         System.out.println("Github: " + nestor.getNombre_github() );
     }
     public void  metodoShiao(Ciudadanos ciudadano3){
+
         System.out.println("\tCiudadano  3");
         System.out.println("\n\tEjercicio GitHub");
         System.out.println("Nombre: " + ciudadano3.getNombre() );

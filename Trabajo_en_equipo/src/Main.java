@@ -75,6 +75,7 @@ public class Main {
                     ciudadano3.setCedula("175136124-5");
                     ciudadano3.setEstado_civil("Soltero");
                     ciudadano3.setNombre_github("Shiao-Li");
+
                     ciudadano3.metodoShiao(ciudadano3);
                     break;
                 case 4:
