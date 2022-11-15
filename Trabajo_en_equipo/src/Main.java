@@ -45,7 +45,7 @@ public class Main {
                     Ciudadanos Ciudadano9= new Ciudadanos();
 
                     Ciudadano9.setNombre("Katherine Cangahuamin");
-                    Ciudadano9.setEdad(23;
+                    Ciudadano9.setEdad(23);
                     Ciudadano9.setEstado_civil("Soltero");
                     Ciudadano9.setNombre_github("kathycan27");
                     Ciudadano9.setCedula("1727664599");
