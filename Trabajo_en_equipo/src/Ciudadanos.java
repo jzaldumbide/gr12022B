@@ -15,6 +15,11 @@ public class Ciudadanos {
         Nombre_github  = "Nosexd";
     }
 
+    public void Pinos(){
+        System.out.println("Nombre: José Pinos");
+        System.out.println("Edad: 21");
+        System.out.println("Github: JosePinos");
+    }
 
     //GETTER AND SETTER
 
