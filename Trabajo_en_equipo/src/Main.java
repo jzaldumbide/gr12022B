@@ -90,12 +90,38 @@ public class Main {
                     //mostrarCiudadanos(ciudadano_7);
                     break;
                 case 8:
+                    Ciudadanos ciudadano8 = new Ciudadanos();
+                    ciudadano8.setNombre("Josue Salazar");
+                    ciudadano8.setEdad(20);
+                    ciudadano8.setCedula("1723359327");
+                    ciudadano8.setEstado_civil("Soltero");
+                    ciudadano8.setNombre_github("JosueSalazar7");
+
+                    System.out.println("\tCiudadano 8");
+                    System.out.println("Nombre: " +ciudadano8.getNombre() );
+                    System.out.println("Edad: " +ciudadano8.getEdad() );
+                    System.out.println("C.I.: " + ciudadano8.getCedula() );
+                    System.out.println("Estado Civil: " + ciudadano8.getEstado_civil() );
+                    System.out.println("Github: " + ciudadano8.getNombre_github() );
                     break;
                 case 9:
                     break;
                 case 10:
                     break;
                 case 11:
+                    Ciudadanos ciudadano11 = new Ciudadanos();
+                    ciudadano11.setNombre("Marlon Lalangui");
+                    ciudadano11.setEdad(19);
+                    ciudadano11.setCedula("172602504-0");
+                    ciudadano11.setEstado_civil("Soltero");
+                    ciudadano11.setNombre_github("marlon1925");
+
+                    System.out.println("\tCiudadano 3");
+                    System.out.println("Nombre: " +ciudadano11.getNombre() );
+                    System.out.println("Edad: " +ciudadano11.getEdad() );
+                    System.out.println("C.I.: " + ciudadano11.getCedula() );
+                    System.out.println("Estado Civil: " + ciudadano11.getEstado_civil() );
+                    System.out.println("Github: " + ciudadano11.getNombre_github() );
                     break;
                 case 12:
                     //Cambio de los datos originales
