@@ -6,7 +6,7 @@ public class Main {
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion;
-
+        Ciudadanos ciudadano_7 = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("1.- Persona 1");
@@ -38,6 +38,18 @@ public class Main {
                 case 6:
                     break;
                 case 7:
+                    ciudadano_7.setNombre("Danny Vinueza");
+                    ciudadano_7.setEdad(20);
+                    ciudadano_7.setCedula("1752681474");
+                    ciudadano_7.setEstado_civil("Soltero");
+                    ciudadano_7.setNombre_github("DannyVinueza");
+
+                    System.out.println("\tCiudadano 7");
+                    System.out.println("Nombre: " +ciudadano_7.getNombre() );
+                    System.out.println("Edad: " +ciudadano_7.getEdad() );
+                    System.out.println("C.I.: " + ciudadano_7.getCedula() );
+                    System.out.println("Estado Civil: " + ciudadano_7.getEstado_civil() );
+                    System.out.println("Github: " + ciudadano_7.getNombre_github() );
                     break;
                 case 8:
                     break;
