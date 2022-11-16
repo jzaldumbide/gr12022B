@@ -17,14 +17,7 @@ public class Ciudadanos {
     
 
     //METHODS 
-    public void David(Ciudadanos Name){
-        System.out.println("\tejercicio GitHub");
-        System.out.println("Nombre: " +Name.getNombre() );
-        System.out.println("Edad: " +Name.getEdad() );
-        System.out.println("C.I.: " + Name.getCedula() );
-        System.out.println("Estado Civil: " + Name.getEstado_civil() );
-        System.out.println("Github: " + Name.getNombre_github() );
-    }
+    
     
     public void Basantes12(){
         Ciudadanos Basantes1 = new Ciudadanos();
