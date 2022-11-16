@@ -15,6 +15,15 @@ public class Ciudadanos {
         Nombre_github  = "Nosexd";
     }
 
+    public void  metodoLalangui(Ciudadanos ciudadano11){
+
+        System.out.println("\tCiudadano  11");
+        System.out.println("\n\tEjercicio GitHub");
+        System.out.println("Nombre: " + ciudadano11.getNombre() );
+        System.out.println("Edad: " + ciudadano11.getEdad() );
+        System.out.println("C.I.: " + ciudadano11.getCedula() );
+        System.out.println("Estado Civil: " + ciudadano11.getEstado_civil() );
+        System.out.println("Github: " + ciudadano11.getNombre_github() );
 
     //GETTER AND SETTER
 
