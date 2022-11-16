@@ -66,7 +66,7 @@ public class Main {
                     Ciudadano2.setNombre_github("dilan-flores");
 
                     //Presentación de ciudadano 2
-                    mostrarCiudadanos(Ciudadano2);
+                    
                     break;
                 case 3:
 
@@ -87,7 +87,7 @@ public class Main {
                     ciudadano_5.setCedula("1727267674");
                     ciudadano_5.setEstado_civil("Soltero");
                     ciudadano_5.setNombre_github("ZEROo666");
-                    mostrarCiudadanos(ciudadano_5);
+                    
                     break;
                 case 6:
                     break;
@@ -137,7 +137,7 @@ public class Main {
 
 
                     //Presentacion de datos
-                    mostrarCiudadanos(Ciudadano12);
+                    
                 break;
 
                 case 13:
