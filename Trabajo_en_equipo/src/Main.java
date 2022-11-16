@@ -6,27 +6,17 @@ public class Main {
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion;
-
         //Ciudadano 2
         Ciudadanos Ciudadano2 = new Ciudadanos();
         Ciudadanos ciudadano_5 = new Ciudadanos();
-<<<<<<< HEAD
         Ciudadanos ciudadano_7 = new Ciudadanos();
-
-
         //objeto 1
         Ciudadanos ciudadano_1 = new Ciudadanos();
-
-
-
         Ciudadanos Ciudadano12 = new Ciudadanos();
-
         //ciudadano 3
         Ciudadanos ciudadano3 = new Ciudadanos();
-
-=======
         Ciudadanos Basantes = new Ciudadanos();
->>>>>>> David_Basantes
+
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("\n1.- Persona 1");
@@ -52,15 +42,7 @@ public class Main {
                     ciudadano_1.setCedula("172690813-8");
                     ciudadano_1.setEstado_civil("Soltero");
                     ciudadano_1.setNombre_github("JosePinos 1) J-Pinos3 2)");
-
-                    System.out.println("\tEjercicio github");
-                    System.out.println("\tCiudadano 1");
-                    System.out.println("Nombre: " +ciudadano_1.getNombre() );
-                    System.out.println("Edad: " +ciudadano_1.getEdad() );
-                    System.out.println("C.I.: " + ciudadano_1.getCedula() );
-                    System.out.println("Estado Civil: " + ciudadano_1.getEstado_civil() );
-                    System.out.println("Github: " + ciudadano_1.getNombre_github() );
-
+                    ciudadano_1.Pinos();
 
                     break;
                 case 2:
@@ -115,16 +97,6 @@ public class Main {
                     Ciudadano8.setEstado_civil("Soltero");
                     Ciudadano8.setNombre_github("RotsenCH");
                     Ciudadano8.setCedula("1751354422");
-
-                    /*Mostramos en pantalla utilizando getters
-                    System.out.println("\n\tCiudadano #8");
-                    System.out.println("Nombre: " + Ciudadano8.getNombre());
-                    System.out.println("Edad: " + Ciudadano8.getEdad());
-                    System.out.println("C.I.: " + Ciudadano8.getCedula());
-                    System.out.println("Estado Civil: " + Ciudadano8.getEstado_civil());
-                    System.out.println("Github: " + Ciudadano8.getNombre_github());
-                    System.out.println("\n\tEjercicio Github");*/
-
                     Ciudadano8.metodoChumania(Ciudadano8);
                     break;
                 case 9:
@@ -132,6 +104,19 @@ public class Main {
                 case 10:
                     break;
                 case 11:
+                    Ciudadanos ciudadano11 = new Ciudadanos();
+                    ciudadano11.setNombre("Marlon Lalangui");
+                    ciudadano11.setEdad(19);
+                    ciudadano11.setCedula("172602504-0");
+                    ciudadano11.setEstado_civil("Soltero");
+                    ciudadano11.setNombre_github("marlon1925");
+
+                    System.out.println("\tCiudadano 3");
+                    System.out.println("Nombre: " + ciudadano11.getNombre());
+                    System.out.println("Edad: " + ciudadano11.getEdad());
+                    System.out.println("C.I.: " + ciudadano11.getCedula());
+                    System.out.println("Estado Civil: " + ciudadano11.getEstado_civil());
+                    System.out.println("Github: " + ciudadano11.getNombre_github());
                     break;
                 case 12:
                     //Cambio de los datos originales
@@ -140,16 +125,8 @@ public class Main {
                     Ciudadano12.setEstado_civil("soltero");
                     Ciudadano12.setNombre_github("DAVIDS2405");
                     Ciudadano12.setCedula("1750974550");
-<<<<<<< HEAD
-
-
                     //Presentacion de datos
-=======
-                    //Presentacion de datos
-                    Basantes.Basantes12();
-                break;
->>>>>>> David_Basantes
-                    
+                    Basantes.Basantes12();                    
                 break;
 
                 case 13:
