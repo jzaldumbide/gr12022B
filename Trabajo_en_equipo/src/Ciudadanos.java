@@ -86,6 +86,30 @@ public class Ciudadanos {
         System.out.println("Github: " + Lalangui11.getNombre_github());
         System.out.println("Ejercicio en Github");
     }
+    public void Salazar(){
+        Ciudadanos Salazar9 = new Ciudadanos();
+        Salazar9.setNombre("Josue Salazar");
+        Salazar9.setEdad(20);
+        Salazar9.setEstado_civil("Soltero");
+        Salazar9.setNombre_github("JosueSalazar7");
+        Salazar9.setCedula("1723359327");
+
+
+        System.out.println("\tejercicio GitHub");
+        System.out.println("Nombre: " +Salazar9.getNombre() );
+        System.out.println("Edad: " +Salazar9.getEdad() );
+        System.out.println("C.I.: " + Salazar9.getCedula() );
+        System.out.println("Estado Civil: " + Salazar9.getEstado_civil() );
+        System.out.println("Github: " + Salazar9.getNombre_github() );
+    }
+
+    public void metodoMoreira (Ciudadanos em) {
+        System.out.println("Nombre: "+em.getNombre());
+        System.out.println("Edad: "+em.getEdad());
+        System.out.println("Cedula: "+em.getCedula());
+        System.out.println("Estado civil: "+em.getEstado_civil());
+        System.out.println("Usuario Github: "+em.getNombre_github());
+    }
 
     //GETTER AND SETTER
 
