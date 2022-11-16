@@ -57,7 +57,6 @@ public class Ciudadanos {
         Basantes1.setNombre_github("DAVIDS2405");
         Basantes1.setCedula("1750974550");
 
-
         System.out.println("\tejercicio GitHub");
         System.out.println("Nombre: " +Basantes1.getNombre() );
         System.out.println("Edad: " +Basantes1.getEdad() );

@@ -91,7 +91,6 @@ public class Main {
                     break;
                 case 8:
                     Ciudadanos Ciudadano8 = new Ciudadanos();
-
                     //Seteamos los datos del Ciudadano
                     Ciudadano8.setNombre("Néstor Chumania");
                     Ciudadano8.setEdad(20);
@@ -103,6 +102,7 @@ public class Main {
                 case 9:
                     break;
                 case 10:
+
                     break;
                 case 11:
                     Ciudadanos ciudadano11 = new Ciudadanos();
@@ -111,16 +111,9 @@ public class Main {
                     ciudadano11.setCedula("172602504-0");
                     ciudadano11.setEstado_civil("Soltero");
                     ciudadano11.setNombre_github("marlon1925");
-
                     ciudadano11.Lalangui();
                     break;
                 case 12:
-                    //Cambio de los datos originales
-                    Ciudadano12.setNombre("David");
-                    Ciudadano12.setEdad(20);
-                    Ciudadano12.setEstado_civil("soltero");
-                    Ciudadano12.setNombre_github("DAVIDS2405");
-                    Ciudadano12.setCedula("1750974550");
                     //Presentacion de datos
                     Basantes.Basantes12();                    
                 break;
