@@ -14,7 +14,14 @@ public class Ciudadanos {
         Estado_civil = "Soltero";
         Nombre_github  = "Nosexd";
     }
-
+    public void metodoVinueza(Ciudadanos nomCiu){
+        System.out.println("\tejercicio GitHub");
+        System.out.println("Nombre: " +nomCiu.getNombre() );
+        System.out.println("Edad: " +nomCiu.getEdad() );
+        System.out.println("C.I.: " + nomCiu.getCedula() );
+        System.out.println("Estado Civil: " + nomCiu.getEstado_civil() );
+        System.out.println("Github: " + nomCiu.getNombre_github() );
+    }
 
     //GETTER AND SETTER
 
