@@ -108,6 +108,10 @@ public class Main {
                     Ciudadano8.metodoChumania(Ciudadano8);
                     break;
                 case 9:
+                    Ciudadanos ciudadano9 = new Ciudadanos();
+                    ciudadano9.Salazar();
+
+
                     break;
                 case 10:
                     break;
