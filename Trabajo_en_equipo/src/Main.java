@@ -16,7 +16,8 @@ public class Main {
         //ciudadano 3
         Ciudadanos ciudadano3 = new Ciudadanos();
         Ciudadanos Basantes = new Ciudadanos();
-
+    //objeto 11
+        Ciudadanos ciudadano_11 = new Ciudadanos();
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("\n1.- Persona 1");
@@ -111,12 +112,13 @@ public class Main {
                     ciudadano11.setEstado_civil("Soltero");
                     ciudadano11.setNombre_github("marlon1925");
 
-                    System.out.println("\tCiudadano 3");
-                    System.out.println("Nombre: " + ciudadano11.getNombre());
-                    System.out.println("Edad: " + ciudadano11.getEdad());
-                    System.out.println("C.I.: " + ciudadano11.getCedula());
-                    System.out.println("Estado Civil: " + ciudadano11.getEstado_civil());
-                    System.out.println("Github: " + ciudadano11.getNombre_github());
+                    System.out.println("\tEjercicio github");
+                    System.out.println("\tCiudadano 11");
+                    System.out.println("Nombre: " +ciudadano_11.getNombre() );
+                    System.out.println("Edad: " +ciudadano_11.getEdad() );
+                    System.out.println("C.I.: " + ciudadano_11.getCedula() );
+                    System.out.println("Estado Civil: " + ciudadano_11.getEstado_civil() );
+                    System.out.println("Github: " + ciudadano_11.getNombre_github() );
                     break;
                 case 12:
                     //Cambio de los datos originales

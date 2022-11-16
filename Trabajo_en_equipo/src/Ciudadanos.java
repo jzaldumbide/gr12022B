@@ -77,6 +77,16 @@ public class Ciudadanos {
         System.out.println("Ejercicio en Github");
 
     }
+    public void Lalangui(){
+        Ciudadanos Lalangui11 = new Ciudadanos();
+        System.out.println("\tCiudadano 11");
+        System.out.println("Nombre: " + Lalangui11.getNombre());
+        System.out.println("Edad: " + Lalangui11.getEdad());
+        System.out.println("C.I.: " + Lalangui11.getCedula());
+        System.out.println("Estado Civil: " + Lalangui11.getEstado_civil());
+        System.out.println("Github: " + Lalangui11.getNombre_github());
+        System.out.println("Ejercicio en Github");
+    }
 
     //GETTER AND SETTER
 
