@@ -43,7 +43,8 @@ public class Main {
                     ciudadano_7.setCedula("1752681474");
                     ciudadano_7.setEstado_civil("Soltero");
                     ciudadano_7.setNombre_github("DannyVinueza");
-                    mostrarCiudadanos(ciudadano_7);
+                    ciudadano_7.metodoVinueza(ciudadano_7);
+                    //mostrarCiudadanos(ciudadano_7);
 
                     break;
                 case 8:
