@@ -53,12 +53,14 @@ public class Main {
                     ciudadano_1.setEstado_civil("Soltero");
                     ciudadano_1.setNombre_github("JosePinos 1) J-Pinos3 2)");
 
+                    System.out.println("\tEjercicio github");
                     System.out.println("\tCiudadano 1");
                     System.out.println("Nombre: " +ciudadano_1.getNombre() );
                     System.out.println("Edad: " +ciudadano_1.getEdad() );
                     System.out.println("C.I.: " + ciudadano_1.getCedula() );
                     System.out.println("Estado Civil: " + ciudadano_1.getEstado_civil() );
                     System.out.println("Github: " + ciudadano_1.getNombre_github() );
+
 
                     break;
                 case 2:

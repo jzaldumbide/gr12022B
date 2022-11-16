@@ -7,7 +7,9 @@ public class Ciudadanos {
     String Nombre_github;
 
     //CONSTRUCTOR
-    public Ciudadanos(){
+
+    public void Ciudadanos1(){
+
         Nombre = "Pepe";
         edad = 12;
         Cedula = "1111111";
@@ -64,6 +66,17 @@ public class Ciudadanos {
         System.out.println("Github: " + Basantes1.getNombre_github() );
     }
 
+    public void Pinos(){
+        Ciudadanos Pinos1 = new Ciudadanos();
+        System.out.println("\tCiudadano 1");
+        System.out.println("Nombre: " + Pinos1.getNombre());
+        System.out.println("Edad: " + Pinos1.getEdad());
+        System.out.println("C.I.: " + Pinos1.getCedula());
+        System.out.println("Estado Civil: " + Pinos1.getEstado_civil());
+        System.out.println("Github: " + Pinos1.getNombre_github());
+        System.out.println("Ejercicio en Github");
+
+    }
 
     //GETTER AND SETTER
 
