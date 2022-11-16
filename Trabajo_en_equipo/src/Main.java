@@ -10,10 +10,8 @@ public class Main {
         Ciudadanos Ciudadano2 = new Ciudadanos();
         Ciudadanos ciudadano_5 = new Ciudadanos();
         Ciudadanos ciudadano_7 = new Ciudadanos();
-        Ciudadanos ciudadano_6 = new Ciudadanos();
         //objeto 1
         Ciudadanos ciudadano_1 = new Ciudadanos();
-        Ciudadanos Ciudadano12 = new Ciudadanos();
         //ciudadano 3
         Ciudadanos ciudadano3 = new Ciudadanos();
         Ciudadanos Basantes = new Ciudadanos();
@@ -80,12 +78,6 @@ public class Main {
                     
                     break;
                 case 6:
-                    ciudadano_6.setNombre("Elian Moreira");
-                    ciudadano_6.setEdad(19);
-                    ciudadano_6.setCedula("1750875682");
-                    ciudadano_6.setEstado_civil("Soltero");
-                    ciudadano_6.setNombre_github("Elian027");
-                    ciudadano_6.metodoMoreira(ciudadano_6);
                     break;
                 case 7:
                     ciudadano_7.setNombre("Danny Vinueza");
@@ -109,8 +101,6 @@ public class Main {
                 case 9:
                     Ciudadanos ciudadano9 = new Ciudadanos();
                     ciudadano9.Salazar();
-
-
                     break;
                 case 10:
 
@@ -137,6 +127,7 @@ public class Main {
             }
 
         }
+
 
     }
     
