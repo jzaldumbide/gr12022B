@@ -10,6 +10,7 @@ public class Main {
         //Ciudadano 2
         Ciudadanos Ciudadano2 = new Ciudadanos();
         Ciudadanos ciudadano_5 = new Ciudadanos();
+<<<<<<< HEAD
         Ciudadanos ciudadano_7 = new Ciudadanos();
 
 
@@ -23,6 +24,9 @@ public class Main {
         //ciudadano 3
         Ciudadanos ciudadano3 = new Ciudadanos();
 
+=======
+        Ciudadanos Basantes = new Ciudadanos();
+>>>>>>> David_Basantes
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("\n1.- Persona 1");
@@ -134,9 +138,15 @@ public class Main {
                     Ciudadano12.setEstado_civil("soltero");
                     Ciudadano12.setNombre_github("DAVIDS2405");
                     Ciudadano12.setCedula("1750974550");
+<<<<<<< HEAD
 
 
                     //Presentacion de datos
+=======
+                    //Presentacion de datos
+                    Basantes.Basantes12();
+                break;
+>>>>>>> David_Basantes
                     
                 break;
 

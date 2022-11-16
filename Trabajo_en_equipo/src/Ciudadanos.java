@@ -14,7 +14,9 @@ public class Ciudadanos {
         Estado_civil = "Soltero";
         Nombre_github  = "Nosexd";
     }
+    
 
+    //METHODS 
     public void metodoVinueza(Ciudadanos nomCiu){
         System.out.println("\tejercicio GitHub");
         System.out.println("Nombre: " +nomCiu.getNombre() );
@@ -42,6 +44,26 @@ public class Ciudadanos {
         System.out.println("Estado Civil: " + ciudadano3.getEstado_civil() );
         System.out.println("Github: " + ciudadano3.getNombre_github() );
     }
+    
+    
+    
+    public void Basantes12(){
+        Ciudadanos Basantes1 = new Ciudadanos();
+        Basantes1.setNombre("David");
+        Basantes1.setEdad(20);
+        Basantes1.setEstado_civil("soltero");
+        Basantes1.setNombre_github("DAVIDS2405");
+        Basantes1.setCedula("1750974550");
+
+
+        System.out.println("\tejercicio GitHub");
+        System.out.println("Nombre: " +Basantes1.getNombre() );
+        System.out.println("Edad: " +Basantes1.getEdad() );
+        System.out.println("C.I.: " + Basantes1.getCedula() );
+        System.out.println("Estado Civil: " + Basantes1.getEstado_civil() );
+        System.out.println("Github: " + Basantes1.getNombre_github() );
+    }
+
 
     //GETTER AND SETTER
 
