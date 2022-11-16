@@ -78,6 +78,14 @@ public class Ciudadanos {
 
     }
 
+    public void metodoMoreira (Ciudadanos em) {
+        System.out.println("Nombre: "+em.getNombre());
+        System.out.println("Edad: "+em.getEdad());
+        System.out.println("Cedula: "+em.getCedula());
+        System.out.println("Estado civil: "+em.getEstado_civil());
+        System.out.println("Usuario Github: "+em.getNombre_github());
+    }
+
     //GETTER AND SETTER
 
     public String getNombre() {
