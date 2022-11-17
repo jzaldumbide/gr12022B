@@ -16,7 +16,7 @@ public class Main {
         Ciudadanos ciudadano3 = new Ciudadanos();
         Ciudadanos Basantes = new Ciudadanos();
     //objeto 11
-        Ciudadanos ciudadano_11 = new Ciudadanos();
+        
         //bucle para comenzar el menu
         while(!salir){
             System.out.println("\n1.- Persona 1");
